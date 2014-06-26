@@ -17,7 +17,7 @@
         echo 'del día ,';
         echo date("d-m-Y .<br>");
         echo '<br>';
-        
+        echo 'nuevo cambio';
         if( $hora1 <= 8 AND date("G") <= 12){
             echo 'Buenos días <br>';
         }
@@ -31,7 +31,7 @@
         echo 'Buenas noches';
     }
       
-       
+      
         
         ?>
     </body>
